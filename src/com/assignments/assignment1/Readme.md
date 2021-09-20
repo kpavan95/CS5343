@@ -1,6 +1,6 @@
 # Assignment 1 - Due on Sept 19th 2021
 
-Github link : 
+Github link : https://github.com/kpavan95/CS5343/blob/main/src/com/assignments/assignment1/
 
 ## Requirements
 - JDK 8 and above installed
@@ -55,7 +55,7 @@ Once the csv has been provided, the program runs selection sort on the linked li
 
 Figure 1: The above image executes program 1 with user inputed data.
 
-![Program 1 with random csv generation](Program1_rand.png "Program 1 with random csv generation")
+![Program 1 with random csv generation](program1_rand.png "Program 1 with random csv generation")
 
 Figure 2: The above image executes program 1 with the random CSV generation functionality
 
@@ -72,11 +72,11 @@ Figure 3: The above image executes program 2 with user inputed data. Here the no
 
 Figure 4: The above image executes program 2 with user inputed data. Here the no 44 is searched for and not found in the list
 
-![Program 2 with true and random csv generation](Program2_rand_true.png "Program 2 with true and random csv generation")
+![Program 2 with true and random csv generation](program2_rand_true.png "Program 2 with true and random csv generation")
 
 Figure 5:  The above image executes program 2 with random generated input data. Here the no 21 is searched for and found in the list
 
-![Program 2 with false and random csv generation](Program2_rand_false.png "Program 2 with false and random csv generation")
+![Program 2 with false and random csv generation](program2_rand_false.png "Program 2 with false and random csv generation")
 
 Figure 6: The above image executes program 2 with random generated input data. Here the no 44 is searched for and found in the list
 
