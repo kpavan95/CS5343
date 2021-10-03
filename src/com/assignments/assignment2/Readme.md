@@ -41,14 +41,14 @@ To run the program, enter the following command in terminal where the executable
 
 The screenshot below shows the inorder traversal of the tree after each iteration.
 
-![Inserting data](Assignment 2_1.png "Inserting data")
+![Inserting data](Assignment_2_1.png "Inserting data")
 
 Figure 1: The Binary search tree is initiated and the data that was given in the assignment is inserted
 
-![Deleting element 40](Assignment 2_2.png "Deleting element 40")
+![Deleting element 40](Assignment_2_2.png "Deleting element 40")
 
 Figure 2: Element 40 is deleted from the Binary search
 
-![Deleting element 20](Assignment 2_3.png "Deleting element 20")
+![Deleting element 20](Assignment_2_3.png "Deleting element 20")
 
 Figure 3: Element 20 is deleted from the Binary search
