@@ -26,9 +26,44 @@ public class Test {
 		
 //		longestPalindrome("bb");
 		
-		convert("PAYPALISHIRING",3);
+//		convert("PAYPALISHIRING",3);
+		
+		atoi("42");
 	}
 	
+	private static int atoi(String s) {
+		int num = 0;
+		int prevnum = 0;
+		int tensDigit = 1;
+		boolean positive = true;
+        boolean max = false;
+		for (int i = s.length() - 1; i >= 0; i--) {
+			char c = s.charAt(i);
+			if (' ' == c) {
+				continue;
+			} else if ('-' == c) {
+				positive = false;
+				continue;
+			}
+			try {
+				int converted = Integer.parseInt(c + "");
+                prevnum = num;
+				num += converted * tensDigit;
+				int reverted = num % tensDigit;
+				tensDigit *= 10;
+				if (prevnum != reverted) {
+					max=true;
+				}
+			} catch (Exception e) {
+                if(num==0) {
+                    continue;
+                }
+                return 0;
+			}
+		}
+        return max?(positive?Integer.MAX_VALUE:Integer.MIN_VALUE):(positive?num : -1 * num);
+	}
+
 	public static String convert(String s, int numRows) {
         StringBuffer[] sb = new StringBuffer[numRows];
         int index = 0;
